@@ -1,0 +1,59 @@
+baseURL: ''
+languageCode: 'en-us'
+title: 'Blog | dcavalei'
+theme: 'PaperMod'
+
+params:
+  ShowBreadcrumb: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  defaultTheme: auto
+  homeInfoParams:
+    Title: Hello there 👋
+    Content:  |
+      Welcome to my blog, my name is Diogo Cavaleiro and I'm a Software Engineer.
+      I'm passionate about technology and I love to learn new things. Hope you enjoy my posts.
+      I'm currently working at [Critical TechWorks](https://www.criticaltechworks.com) as a Security Engineer.
+  socialIcons:
+    - name: github
+      url: "https://github.com/dcavalei"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/dcavalei/"
+    - name: twitter
+      url: "https://twitter.com/dcavalei42"
+    - name: email
+      url: "mailto:diogo.cavaleiro.42+blog@gmail.com"
+
+menu:
+  main:
+    - identifier: home
+      name: "Home"
+      url: "/"
+      weight: 1
+
+    - identifier: about
+      name: "About"
+      url: "/about/"
+      weight: 2
+
+    - identifier: posts
+      name: "Posts"
+      url: "/posts/"
+      weight: 3
+
+    - identifier: tags
+      name: "Tags"
+      url: "/tags/"
+      weight: 4
+
+    - identifier: categories
+      name: "Categories"
+      url: "/categories/"
+      weight: 5
+
+    - identifier: contact
+      name: "Contact"
+      url: "/contact/"
+      weight: 6
