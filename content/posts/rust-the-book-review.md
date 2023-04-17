@@ -1,12 +1,12 @@
 ---
 title: "The Rust Programming Language"
-date: 2023-04-16T20:42:40+01:00
+date: 2023-04-16T20:42:40Z
 draft: false
 cover:
   image: /img/the-rust-programming-language.jpg
   alt: "The Rust Programming Language"
   caption: "The Rust Programming Language"
-categories: ["Programming"]
+categories: ["Software Development"]
 tags: ["rust"]
 ---
 

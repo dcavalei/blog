@@ -51,8 +51,3 @@ menu:
       name: "Categories"
       url: "/categories/"
       weight: 5
-
-    - identifier: contact
-      name: "Contact"
-      url: "/contact/"
-      weight: 6
