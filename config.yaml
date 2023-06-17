@@ -13,9 +13,8 @@ params:
   homeInfoParams:
     Title: Hello there 👋
     Content:  |
-      Welcome to my blog, my name is Diogo Cavaleiro and I'm a Software Engineer.
-      I'm passionate about technology and I love to learn new things. Hope you enjoy my posts.
-      I'm currently working at [Critical TechWorks](https://www.criticaltechworks.com) as a Security Engineer.
+      Welcome to my blog! I'm Diogo Cavaleiro, a Software Engineer who loves technology and enjoys learning new things.
+      Through my posts, I aim to share my passion with you. Currently, I work as a Security Engineer at [Critical TechWorks](https://www.criticaltechworks.com).
   socialIcons:
     - name: github
       url: "https://github.com/dcavalei"
