@@ -1,0 +1,15 @@
+services:
+  build:
+    image: klakegg/hugo:0.101.0
+    volumes: [ ".:/src" ]
+
+  # Unfortunately I need to build 2 containers if I want to use docker compose for development.
+  # Services cannot share containers and that's ok, docker compose shouldn't be used like this.
+  server:
+    image: klakegg/hugo:0.101.0
+    volumes: [ ".:/src" ]
+    ports: [ 1313:1313 ]
+    depends_on:
+      build:
+        condition: service_completed_successfully
+    command: server -D
